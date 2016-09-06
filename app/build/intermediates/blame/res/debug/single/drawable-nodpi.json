@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable-nodpi/potatoclock.png",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable-nodpi/potatoclock.png"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable-nodpi/google_ic.png",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable-nodpi/google_ic.png"
+    }
+]

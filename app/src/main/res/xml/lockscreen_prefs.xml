@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Lockscreen">
+        <PreferenceScreen android:title="Clock">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/lockscreen_font_style_entries" android:title="Clock Font style" android:key="lockscreen_clock_font_style" android:entryValues="@array/lockscreen_font_style_values" />
+        </PreferenceScreen>
+            <PreferenceCategory android:title=" ">
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Notifications">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/lockscreen_notif_entries"
+                android:title="Notifications Shown on Lockscreen"
+                android:key="lockscreen_notifications"
+                android:defaultValue="2"
+                android:summary="Number of notifications. NOTE: works only in lockscreen with swipe"
+                android:entryValues="@array/lockscreen_notif_values" />
+            </PreferenceCategory>
+
+
+            <PreferenceCategory android:title=" ">
+            </PreferenceCategory>
+            <PreferenceCategory android:title="PIN Lock">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Quick PIN Unlock" android:key="lockscreen_quick_unlock_control" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Pin Pad Scramble" android:key="lockscreen_scramble_pin_layout" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+            </PreferenceCategory>
+
+
+            <PreferenceCategory android:title=" ">
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Texts">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Charging text" android:key="keyguard_charging_notif" android:defaultValue="true" android:summaryOn="Hidden" android:summaryOff="Shown" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Low Battery text" android:key="keyguard_lowbattery_notif" android:defaultValue="true" android:summaryOn="Hidden" android:summaryOff="Shown" />
+            </PreferenceCategory>
+
+
+            <PreferenceCategory android:title=" ">
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Info">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Device Info" android:key="device_info" android:summaryOff="Device Info currently shown" android:summaryOn="Currently removed" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Device Info Header Color" android:key="device_info_color" android:summary="Choose color" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Device Info Info Color" android:key="device_info_color2" android:summary="Choose color" />
+                <Preference android:title="Restart SystemUI" android:key="tool#restartsystemui" android:summary="Press for instant changes" />
+            </PreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>

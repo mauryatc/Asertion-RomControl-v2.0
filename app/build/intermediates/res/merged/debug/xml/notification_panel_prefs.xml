@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Memory Cleaner">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Memory cleaner" android:key="pekaka_memCleanView" android:summaryOn="enabled" android:summaryOff="disabled" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Memory cleaner color" android:key="db_inkeffect_pekaka_memkiller_picker" android:summary="Choose color" />
+    </PreferenceCategory>
+        <PreferenceCategory android:title=" ">
+        </PreferenceCategory>
+    <PreferenceCategory android:title="Panel Colors">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="StatusBar Expanded Header Color" android:key="header_bg_color" android:summary="Choose color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Notification Background Color" android:key="notification_background_color" android:summary="Choose color" />
+            <Preference android:title="Restart SystemUI" android:key="tool#restartsystemui" android:summary="Press to set the color for notification background" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title=" ">
+        </PreferenceCategory>
+    <PreferenceCategory android:title="Clocks">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/clock_style_entries" android:title="Dropdown Clock Format" android:key="change_expanded_clock" android:summary="Choose style of Clock" android:entryValues="@array/clock_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Ambient Display" android:key="ambient_display_active" android:summaryOn="On" android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="10000" android:title="Ambient Display Screen Time" android:key="ambient_timeout" android:dependency="ambient_display_active" android:defaultValue="10000" />
+        </PreferenceCategory>
+    <PreferenceCategory android:title=" ">
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Buttons">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference android:persistent="false" android:entries="@array/toggle_buttons_background_entries" android:title="@string/toggle_buttons_background_title" android:key="toggle_buttons_background" android:summary="@string/toggle_buttons_background_summary" android:entryValues="@array/toggle_buttons_background_values" />
+    </PreferenceCategory>
+</PreferenceScreen>
