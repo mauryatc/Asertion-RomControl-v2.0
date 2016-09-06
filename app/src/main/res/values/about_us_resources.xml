@@ -27,14 +27,14 @@
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
+        <item>My XDA profile</item>
         <item>Our Site</item>
         <item>XDA</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4471434/</item>
         <item>https://www.google.com/</item>
         <item>http://forum.xda-developers.com/</item>
     </string-array>

@@ -14,6 +14,81 @@
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:wubydax="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Statusbar - Notification Panel">
+        <PreferenceScreen android:title="Statusbar" android:summary="Customize the statusbar">
+            <PreferenceScreen android:title="Battery Bar" android:summary="Display Line on top of statusbar for battery">
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="Tap here to show/hide" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:defaultValue="false" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_style_entries" android:title="Battery bar style" android:key="battery_bar_style" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Bar Color" android:key="battery_bar_color" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Phone - Dialer">
+        <PreferenceScreen android:title="Options">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Increasing Ringtone" android:key="db_inc_volume_disable" android:defaultValue="false" android:summaryOn="Increasing ringtone enabled" android:summaryOff="Increasing ringtone disabled" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Display and buttons">
+        <PreferenceScreen android:title="Screen Recorder">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="scr_pointer"
+                android:summaryOff="@string/scr_disable"
+                android:summaryOn="@string/scr_enable"
+                android:title="@string/scr_pointer_title" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="scr_thumbs_preview"
+                android:summaryOff="@string/scr_disable"
+                android:summaryOn="@string/scr_enable"
+                android:title="@string/scr_thumbs_preview_title" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="4"
+                android:key="scr_bitrate"
+                android:entries="@array/scr_bitrate_entries"
+                android:entryValues="@array/scr_bitrate_values"
+                android:title="@string/scr_bitrate_title" />
+            <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+                android:title="@string/scr_bitrate_custom_title"
+                android:summary="@string/scr_bitrate_custom_summary"
+                android:key="scr_bitrate_custom"
+                android:dialogTitle="@string/scr_bitrate_custom_dialog"
+                android:inputType="number"
+                android:defaultValue="4000" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="2"
+                android:key="scr_timelimit"
+                android:entries="@array/scr_timelimit_entries"
+                android:entryValues="@array/scr_timelimit_values"
+                android:title="@string/scr_timelimit_title" />
+            <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+                android:title="@string/scr_timelimit_custom_title"
+                android:summary="@string/scr_timelimit_custom_summary"
+                android:key="scr_timelimit_custom"
+                android:dialogTitle="@string/scr_timelimit_custom_dialog"
+                android:inputType="number"
+                android:defaultValue="180" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:key="scr_storage_path"
+                android:entries="@array/scr_storage_path_entries"
+                android:entryValues="@array/scr_storage_path_values"
+                android:title="@string/scr_storage_path_title" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Home Button Wake" android:summary="Prevents screen wake with Home button.">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Disable Home Button Wake" android:key="wake_home" android:defaultValue="false" android:summaryOn="Home Button Enabled" android:summaryOff="Home Button Disabled" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Use Custom Carrier Text" android:key="custom_lock_carrier" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference android:title="Carrier Custom Text" android:defaultValue="" android:key="custom_lock_carrier_text" android:summary="Edit carrier label" android:dependency="custom_lock_carrier" android:dialogTitle="Set Custom Text" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Carrier Text" alphaSlider="true" android:defaultValue="-1" android:key="carrier_color" android:summary="Choose carrier color" />
+    <!--We can use kill app on checkboxes as well. Same goes for rebootDevice-->
+
+
+
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:defaultValue="false"
         android:key="enable_gear_custom_bg"

@@ -31,7 +31,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "23.0.3"
     defaultConfig {
-        applicationId "com.wubydax.romcontrol.v2"
+        applicationId "com.henkate.asertion.romcontrol"
         minSdkVersion 21
         //noinspection OldTargetApi
         targetSdkVersion 22
