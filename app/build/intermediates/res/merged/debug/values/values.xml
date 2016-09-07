@@ -24,19 +24,19 @@
         <item>@drawable/icon_5</item>
     </array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4672359/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4433143/</item>
         <item>https://www.google.com/</item>
         <item>http://forum.xda-developers.com/</item>
     </string-array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
+        <item>daxgirl - ROM Control</item>
+        <item>Wuby986 - ROM Control</item>
+        <item>bamzzz and OmniROM - Omni Screen Recorder</item>
+        <item>venkat kamesh - systemapp remover</item>
+        <item>edzamber</item>
         <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
     </string-array>
     <array name="about_team_drawables">
@@ -197,22 +197,25 @@
         <item>5</item>
     </string-array>
     <array name="nav_menu_prefs_drawables">
-        <item>@drawable/ic_system_ui</item>
-        <item>@drawable/ic_phone</item>
-        <item>@drawable/ic_framework</item>
+        <item>@drawable/ic_status_bar</item>
         <item>@drawable/ic_notification_panel</item>
+        <item>@drawable/ic_lockscreen</item>
+        <item>@drawable/ic_phone</item>
+        <item>@drawable/ic_display_and_buttons</item>
     </array>
     <string-array name="nav_menu_prefs_titles">
-        <item>@string/systemui_prefs</item>
-        <item>@string/phone_prefs</item>
-        <item>@string/framework_prefs</item>
+        <item>@string/statusbar_prefs</item>
         <item>@string/notification_panel_prefs</item>
+        <item>@string/lockscreen_prefs</item>
+        <item>@string/phone_prefs</item>
+        <item>@string/display_and_buttons_prefs</item>
     </string-array>
     <string-array name="nav_menu_xml_file_names" translatable="false">
-        <item>ui_prefs</item>
-        <item>phone_prefs</item>
-        <item>framework_prefs</item>
+        <item>statusbar_prefs</item>
         <item>notification_panel_prefs</item>
+        <item>lockscreen_prefs</item>
+        <item>phone_prefs</item>
+        <item>display_and_buttons_prefs</item>
     </string-array>
     <string-array name="scr_bitrate_entries">
         <item>500Kbps</item>
@@ -972,7 +975,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="about_us">About us</string>
+    <string name="about_us">About me and Credits</string>
     <string name="app_name">Asertion ROM Control</string>
     <string name="app_reboot_required_dialog_message">For this action to take effect it is required to restart %1$s.\n\nPress OK to restart now</string>
     <string name="app_reboot_required_dialog_title">App reboot required</string>
@@ -990,10 +993,11 @@
     <string name="command_executed_success_toast">Executed successfully</string>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="dialog_color_picker">Pick Color</string>
+    <string name="display_and_buttons_prefs">Display and Buttons</string>
     <string name="find_app">Find App</string>
-    <string name="framework_prefs">Framework prefs</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="left">Left</string>
+    <string name="lockscreen_prefs">Locksreen</string>
     <string name="more_options">More options</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -1085,6 +1089,7 @@
     <string name="status_bar_weather_size_title">Font size</string>
     <string name="status_bar_weather_summary">Enable various weather text options in statusbar</string>
     <string name="status_bar_weather_title">Weather Text</string>
+    <string name="statusbar_prefs">Status Bar</string>
     <string name="systemui_prefs">SystemUI prefs</string>
     <string name="theme_dialog_title">Choose theme</string>
     <string name="toggle_buttons_background_summary">%s</string>

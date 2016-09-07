@@ -1,11 +1,23 @@
 [
     {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/lockscreen_prefs.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/lockscreen_prefs.xml"
+    },
+    {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/notification_panel_prefs.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/notification_panel_prefs.xml"
     },
     {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/ui_prefs.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/ui_prefs.xml"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/statusbar_prefs.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/statusbar_prefs.xml"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/display_and_buttons.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/display_and_buttons.xml"
     },
     {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/phone_prefs.xml",

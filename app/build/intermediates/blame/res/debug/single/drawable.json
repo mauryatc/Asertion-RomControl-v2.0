@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_status_bar.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_status_bar.xml"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_lockscreen.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_lockscreen.xml"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_display_and_buttons.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_display_and_buttons.xml"
+    },
+    {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/protective_view_gradient_top.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/protective_view_gradient_top.xml"
     },
