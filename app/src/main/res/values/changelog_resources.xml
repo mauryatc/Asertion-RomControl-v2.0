@@ -9,28 +9,71 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>SASERTIOOOON ROM BY HENKKATE</item>
-        <item>Another changelog thing ;lkj d;lkj ;lkjs ;lkj ;lkj s;lkj ;lkj s;lkj ;lkj ;lks ;lkj ;lkj</item>
-        <item>Some more changelog things</item>
-        <item>Some even more changelog thing</item>
-        <item>And another changelog thing ;lsj; lkjs ;lkj ; lkj;lsjk ;sklj s;lkj s;lk js;lkj s;lkj</item>
-        <item>How many changelog things</item>
-        <item>What a long changelog!!!</item>
-        <item>Is it twenty already?</item>
-        <item>Are we there yet?</item>
-        <item>Live long and prosper</item>
-        <item>So say we all</item>
-        <item>Patience you must have</item>
-        <item>Great scot!!!</item>
-        <item>No disassemble…</item>
-        <item>Almost there</item>
-        <item>Done with changelog</item>
+        <item>Changed rom name from Stock ROM Advanced to Asertion ROM</item>
+        <item>Blocked ads by adding the latest hosts file from AdAway</item>
+        <item>360 degree rotation</item>
+        <item>Removed Mobile Data toggle off Warning Dialogue</item>
+        <item>Removed signature verification - can install older app version over newer</item>
+        <item>Disabled scrolling cache across OS (for smoother scrolling)?</item>
+        <item>Disabled safe media volume warning popup</item>
+        <item>Can use torch when battery is low</item>
+        <item>Added Samsung Music Player</item>
+        <item>Added Gesture Anywhere - you can launch any app/activity/contact/folder/Tasker shortcut/Greenify Hibernate with any gesture</item>
+        <item>Added a invisible icon in status bar, behind the clock, which power off the screen when you touch and show Power Menu when you long touch</item>
+        <item>Added Potato Gradient - can choose 2 or 4 custom colors for status bar</item>
+        <item>Added A.O.K.P Ram Bar in Recent Panel</item>
+        <item>Added Omni Screen Recorder - add it from Home Screen > Widgets</item>
+        <item>Added System App Remover</item>
+        <item>Added Auto Start Management - select which apps start at boot</item>
+        <item>Added Clock and Date options: show/hide, custom color, enable/disable seconds, left/right, font style, show/shie AM/PM, show/hide date, date style, date format</item>
+        <item>Enabled developer options by defaultr</item>
+        <item>Removed Knox info in Settings>About screen</item>
+        <item>##############################</item>
+        <item>Added Asertion ROM Control to control following options:</item>
+        <item>##############################</item>
+        <item>============</item>
+        <item>STATUS BAR:</item>
+        <item>===========</item>
+        <item>Battery Bar: show/hide, animation, style, size, color</item>
+        <item>##############################</item>
+        <item>==================</item>
+        <item>NOTIFICATION PANEL</item>
+        <item>==================</item>
+        <item>Memory Cleaner: show/hide, custom color</item>
+        <item>StatusBar Expanded Header Color</item>
+        <item>Notification Background Color</item>
+        <item>Dropdown Clock: digital/analog</item>
+        <item>7 Buttons backgrounds to choose from</item>
+        <item>##############################</item>
+        <item>============</item>
+        <item>LOCKSCREEN:</item>
+        <item>===========</item>
+        <item>10 Clock fonts styles</item>
+        <item>Choose how many notifications shows on lockscreen: 2/3/4/5</item>
+        <item>Quick PIN Unlock</item>
+        <item>Pin Pad Scramble</item>
+        <item>Show/hide charging text</item>
+        <item>Show/hide low battery text</item>
+        <item>Custom Carrier Text: show/hide, custom color</item>
+        <item>Device Info: show/hide, custom colors</item>
+        <item>##############################</item>
+        <item>=======</item>
+        <item>PHONE:</item>
+        <item>======</item>
+        <item>Increasing Ringtone: enable/disable</item>
+        <item>##############################</item>
+        <item>====================</item>
+        <item>DISPLAY AND BUTTONS:</item>
+        <item>====================</item>
+        <item>Omni Screen Recorder options</item>
+        <item>Home Button Wake: enable/disable</item>
+        <item>##############################</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">build v1.0 6thgearrom</string>
+    <string name="rom_version_for_changelog">Asertion ROM v2.0</string>
 
 
 </resources>

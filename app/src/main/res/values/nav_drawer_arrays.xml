@@ -40,7 +40,7 @@
         <item>@string/notification_panel_prefs</item>
         <item>@string/lockscreen_prefs</item>
         <item>@string/phone_prefs</item>
-        <item>@string/display_and_buttons_prefs</item>
+        <item>@string/display_and_buttons</item>
     </string-array>
 
 
@@ -53,6 +53,6 @@
         <item>notification_panel_prefs</item>
         <item>lockscreen_prefs</item>
         <item>phone_prefs</item>
-        <item>display_and_buttons_prefs</item>
+        <item>display_and_buttons</item>
     </string-array>
 </resources>

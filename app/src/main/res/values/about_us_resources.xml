@@ -20,16 +20,16 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/henkate</item>
+        <item>@drawable/xda_rom</item>
+        <item>@drawable/paypal</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
         <item>My XDA profile</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>ROM thread</item>
+        <item>Donate to me</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
@@ -41,48 +41,98 @@
 
 
 
-    <!--Team info arrays-->
-    <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
-    </array>
-    <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
-    </string-array>
-    <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-    </string-array>
-
-
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/henkate</item>
+        <item>@drawable/daxgirl</item>
+        <item>@drawable/wuby986</item>
+        <item>@drawable/tdunham</item>
+        <item>@drawable/kamy</item>
+        <item>@drawable/darklord</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/majdinj</item>
+        <item>@drawable/venkat_kamesh</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/edzamber</item>
+        <item>@drawable/ikrom</item>
+        <item>@drawable/cnexus</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/dipesh1502</item>
+        <item>@drawable/stangdriver44</item>
+        <item>@drawable/and2</item>
+        <item>@drawable/mariozawa</item>
+        <item>@drawable/madgit</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/goldie</item>
+        <item>@drawable/gianton</item>
+        <item>@drawable/tamirda</item>
+        <item>@drawable/txr33</item>
+        <item>@drawable/talkingmonkeys</item>
+        <item>@drawable/malbert16442</item>
+        <item>@drawable/martillero</item>
+        <item>@drawable/android_icon</item>
     </array>
+
     <string-array name="about_credits_names">
-        <item>daxgirl - ROM Control</item>
-        <item>Wuby986 - ROM Control</item>
-        <item>bamzzz and OmniROM - Omni Screen Recorder</item>
-        <item>venkat kamesh - systemapp remover</item>
+        <item>#Henkate -me, for developing this rom</item>
+        <item>daxgirl - 6thGear RomControl</item>
+        <item>Wuby986 - 6thGear RomControl</item>
+        <item>tdunham</item>
+        <item>Kamy</item>
+        <item>DaRk-L0rD</item>
+        <item>bamzzz and OmniROM</item>
+        <item>majdinj</item>
+        <item>venkat kamesh</item>
+        <item>Vanya Melnechenko,Iqbal Firzal, Tatang Sutisna, ChameleonOS, Cyanogenmod, crDroid</item>
         <item>edzamber</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>ikrom</item>
+        <item>CNexus</item>
+        <item>DavidMKD</item>
+        <item>dipesh1502</item>
+        <item>stangdriver44</item>
+        <item>and2</item>
+        <item>mariozawa</item>
+        <item>madgit</item>
+        <item>gvmiguez</item>
+        <item>Goldie</item>
+        <item>gianton</item>
+        <item>Tarmida</item>
+        <item>txr33</item>
+        <item>talkingmonkeys</item>
+        <item>malbert16442</item>
+        <item>Martillero</item>
+        <item>lucadalba</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
+        <item>http://forum.xda-developers.com/member.php?u=4471434/</item>
         <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
-        <item>http://forum.xda-developers.com/member.php?u=4672359/</item>
-        <item>http://forum.xda-developers.com/member.php?u=4433143/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=1042140</item>
+        <item>http://forum.xda-developers.com/member.php?u=4819130</item>
+        <item>http://forum.xda-developers.com/member.php?u=4872623</item>
+        <item>http://forum.xda-developers.com/member.php?u=4672359</item>
+        <item>http://forum.xda-developers.com/member.php?u=369057</item>
+        <item>http://forum.xda-developers.com/member.php?u=4433143</item>
+        <item>https://www.google.ro/?gws_rd=ssl</item>
+        <item>http://forum.xda-developers.com/member.php?u=4507636</item>
+        <item>http://forum.xda-developers.com/member.php?u=5198767</item>
+        <item>http://forum.xda-developers.com/member.php?u=4645794</item>
+        <item>http://forum.xda-developers.com/member.php?u=4694376</item>
+        <item>http://forum.xda-developers.com/member.php?u=5440906</item>
+        <item>http://forum.xda-developers.com/member.php?u=364033</item>
+        <item>http://forum.xda-developers.com/member.php?u=1236525</item>
+        <item>http://forum.xda-developers.com/member.php?u=4715592</item>
+        <item>http://forum.xda-developers.com/member.php?u=6896369</item>
+        <item>http://forum.xda-developers.com/member.php?u=5248695</item>
+        <item>http://forum.xda-developers.com/member.php?u=3065070</item>
+        <item>http://forum.xda-developers.com/member.php?u=1546609</item>
+        <item>http://forum.xda-developers.com/member.php?u=2739548</item>
+        <item>http://forum.xda-developers.com/member.php?u=3512588</item>
+        <item>http://forum.xda-developers.com/member.php?u=5266065</item>
+        <item>http://forum.xda-developers.com/member.php?u=6173089</item>
+        <item>http://forum.xda-developers.com/member.php?u=4830018</item>
+        <item>http://forum.xda-developers.com/member.php?u=7119432</item>
+
     </string-array>
 </resources>

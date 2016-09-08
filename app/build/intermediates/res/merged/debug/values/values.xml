@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/henkate</item>
+        <item>@drawable/xda_rom</item>
+        <item>@drawable/paypal</item>
     </array>
     <string-array name="about_contact_us_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=4471434/</item>
@@ -12,47 +12,73 @@
     </string-array>
     <string-array name="about_contact_us_text">
         <item>My XDA profile</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>ROM thread</item>
+        <item>Donate to me</item>
     </string-array>
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/henkate</item>
+        <item>@drawable/daxgirl</item>
+        <item>@drawable/wuby986</item>
+        <item>@drawable/tdunham</item>
+        <item>@drawable/kamy</item>
+        <item>@drawable/darklord</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/majdinj</item>
+        <item>@drawable/venkat_kamesh</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/edzamber</item>
+        <item>@drawable/ikrom</item>
+        <item>@drawable/cnexus</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/dipesh1502</item>
+        <item>@drawable/stangdriver44</item>
+        <item>@drawable/and2</item>
+        <item>@drawable/mariozawa</item>
+        <item>@drawable/madgit</item>
+        <item>@drawable/android_icon</item>
+        <item>@drawable/goldie</item>
+        <item>@drawable/gianton</item>
+        <item>@drawable/tamirda</item>
+        <item>@drawable/txr33</item>
+        <item>@drawable/talkingmonkeys</item>
+        <item>@drawable/malbert16442</item>
+        <item>@drawable/martillero</item>
+        <item>@drawable/android_icon</item>
     </array>
     <string-array name="about_credits_links" translatable="false">
+        <item>http://forum.xda-developers.com/member.php?u=4471434/</item>
         <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
-        <item>http://forum.xda-developers.com/member.php?u=4672359/</item>
-        <item>http://forum.xda-developers.com/member.php?u=4433143/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
     </string-array>
     <string-array name="about_credits_names">
-        <item>daxgirl - ROM Control</item>
-        <item>Wuby986 - ROM Control</item>
-        <item>bamzzz and OmniROM - Omni Screen Recorder</item>
-        <item>venkat kamesh - systemapp remover</item>
+        <item>#Henkate -me, for developing this rom</item>
+        <item>daxgirl - 6thGear RomControl</item>
+        <item>Wuby986 - 6thGear RomControl</item>
+        <item>tdunham</item>
+        <item>Kamy</item>
+        <item>DaRk-L0rD</item>
+        <item>bamzzz and OmniROM</item>
+        <item>majdinj</item>
+        <item>venkat kamesh</item>
+        <item>Vanya Melnechenko,Iqbal Firzal, Tatang Sutisna, ChameleonOS, Cyanogenmod, crDroid</item>
         <item>edzamber</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
-    </string-array>
-    <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
-    </array>
-    <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-    </string-array>
-    <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>ikrom</item>
+        <item>CNexus</item>
+        <item>DavidMKD</item>
+        <item>dipesh1502</item>
+        <item>stangdriver44</item>
+        <item>and2</item>
+        <item>mariozawa</item>
+        <item>madgit</item>
+        <item>gvmiguez</item>
+        <item>Goldie</item>
+        <item>gianton</item>
+        <item>Tarmida</item>
+        <item>txr33</item>
+        <item>talkingmonkeys</item>
+        <item>malbert16442</item>
+        <item>Martillero</item>
+        <item>lucadalba</item>
     </string-array>
     <string-array name="backup_restore_items">
         <item>Backup data</item>
@@ -87,22 +113,65 @@
         <item>1</item>
     </string-array>
     <string-array name="changelog_items">
-        <item>SASERTIOOOON ROM BY HENKKATE</item>
-        <item>Another changelog thing ;lkj d;lkj ;lkjs ;lkj ;lkj s;lkj ;lkj s;lkj ;lkj ;lks ;lkj ;lkj</item>
-        <item>Some more changelog things</item>
-        <item>Some even more changelog thing</item>
-        <item>And another changelog thing ;lsj; lkjs ;lkj ; lkj;lsjk ;sklj s;lkj s;lk js;lkj s;lkj</item>
-        <item>How many changelog things</item>
-        <item>What a long changelog!!!</item>
-        <item>Is it twenty already?</item>
-        <item>Are we there yet?</item>
-        <item>Live long and prosper</item>
-        <item>So say we all</item>
-        <item>Patience you must have</item>
-        <item>Great scot!!!</item>
-        <item>No disassemble…</item>
-        <item>Almost there</item>
-        <item>Done with changelog</item>
+        <item>Changed rom name from Stock ROM Advanced to Asertion ROM</item>
+        <item>Blocked ads by adding the latest hosts file from AdAway</item>
+        <item>360 degree rotation</item>
+        <item>Removed Mobile Data toggle off Warning Dialogue</item>
+        <item>Removed signature verification - can install older app version over newer</item>
+        <item>Disabled scrolling cache across OS (for smoother scrolling)?</item>
+        <item>Disabled safe media volume warning popup</item>
+        <item>Can use torch when battery is low</item>
+        <item>Added Samsung Music Player</item>
+        <item>Added Gesture Anywhere - you can launch any app/activity/contact/folder/Tasker shortcut/Greenify Hibernate with any gesture</item>
+        <item>Added a invisible icon in status bar, behind the clock, which power off the screen when you touch and show Power Menu when you long touch</item>
+        <item>Added Potato Gradient - can choose 2 or 4 custom colors for status bar</item>
+        <item>Added A.O.K.P Ram Bar in Recent Panel</item>
+        <item>Added Omni Screen Recorder - add it from Home Screen > Widgets</item>
+        <item>Added System App Remover</item>
+        <item>Added Auto Start Management - select which apps start at boot</item>
+        <item>Added Clock and Date options: show/hide, custom color, enable/disable seconds, left/right, font style, show/shie AM/PM, show/hide date, date style, date format</item>
+        <item>Enabled developer options by defaultr</item>
+        <item>Removed Knox info in Settings>About screen</item>
+        <item>##############################</item>
+        <item>Added Asertion ROM Control to control following options:</item>
+        <item>##############################</item>
+        <item>============</item>
+        <item>STATUS BAR:</item>
+        <item>===========</item>
+        <item>Battery Bar: show/hide, animation, style, size, color</item>
+        <item>##############################</item>
+        <item>==================</item>
+        <item>NOTIFICATION PANEL</item>
+        <item>==================</item>
+        <item>Memory Cleaner: show/hide, custom color</item>
+        <item>StatusBar Expanded Header Color</item>
+        <item>Notification Background Color</item>
+        <item>Dropdown Clock: digital/analog</item>
+        <item>7 Buttons backgrounds to choose from</item>
+        <item>##############################</item>
+        <item>============</item>
+        <item>LOCKSCREEN:</item>
+        <item>===========</item>
+        <item>10 Clock fonts styles</item>
+        <item>Choose how many notifications shows on lockscreen: 2/3/4/5</item>
+        <item>Quick PIN Unlock</item>
+        <item>Pin Pad Scramble</item>
+        <item>Show/hide charging text</item>
+        <item>Show/hide low battery text</item>
+        <item>Custom Carrier Text: show/hide, custom color</item>
+        <item>Device Info: show/hide, custom colors</item>
+        <item>##############################</item>
+        <item>=======</item>
+        <item>PHONE:</item>
+        <item>======</item>
+        <item>Increasing Ringtone: enable/disable</item>
+        <item>##############################</item>
+        <item>====================</item>
+        <item>DISPLAY AND BUTTONS:</item>
+        <item>====================</item>
+        <item>Omni Screen Recorder options</item>
+        <item>Home Button Wake: enable/disable</item>
+        <item>##############################</item>
     </string-array>
     <string-array name="clock_style_entries">
         <item>Digital</item>
@@ -208,14 +277,14 @@
         <item>@string/notification_panel_prefs</item>
         <item>@string/lockscreen_prefs</item>
         <item>@string/phone_prefs</item>
-        <item>@string/display_and_buttons_prefs</item>
+        <item>@string/display_and_buttons</item>
     </string-array>
     <string-array name="nav_menu_xml_file_names" translatable="false">
         <item>statusbar_prefs</item>
         <item>notification_panel_prefs</item>
         <item>lockscreen_prefs</item>
         <item>phone_prefs</item>
-        <item>display_and_buttons_prefs</item>
+        <item>display_and_buttons</item>
     </string-array>
     <string-array name="scr_bitrate_entries">
         <item>500Kbps</item>
@@ -975,7 +1044,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="about_us">About me and Credits</string>
+    <string name="about_us">About me &amp; Credits</string>
     <string name="app_name">Asertion ROM Control</string>
     <string name="app_reboot_required_dialog_message">For this action to take effect it is required to restart %1$s.\n\nPress OK to restart now</string>
     <string name="app_reboot_required_dialog_title">App reboot required</string>
@@ -993,11 +1062,11 @@
     <string name="command_executed_success_toast">Executed successfully</string>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="dialog_color_picker">Pick Color</string>
-    <string name="display_and_buttons_prefs">Display and Buttons</string>
+    <string name="display_and_buttons">Display and Buttons</string>
     <string name="find_app">Find App</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="left">Left</string>
-    <string name="lockscreen_prefs">Locksreen</string>
+    <string name="lockscreen_prefs">Lockscreen</string>
     <string name="more_options">More options</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -1007,7 +1076,7 @@
     <string name="no_su_dialog_message">We could not acquire root access on your device.\n\nMost of this app\'s functions can be performed without root access. However, you might experience problems with running scripts or rebooting.\n\nWe strongly recommend to allow root access on next request or allow such access in your Su client manually.</string>
     <string name="no_su_dialog_title">No root privileges</string>
     <string name="notification_panel_prefs">Notification panel</string>
-    <string name="phone_prefs">Phone prefs</string>
+    <string name="phone_prefs">Phone</string>
     <string name="press_color_to_apply">Press to apply</string>
     <string name="reboot_device_text">Reboot Device</string>
     <string name="reboot_later_negative_button">later</string>
@@ -1022,7 +1091,7 @@
     <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
     <string name="right">Right</string>
-    <string name="rom_version_for_changelog">build v1.0 6thgearrom</string>
+    <string name="rom_version_for_changelog">Asertion ROM v2.0</string>
     <string name="root_progress_dialog_message">Please wait…</string>
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
     <string name="root_tools_exception_toast">File not found or root denied</string>

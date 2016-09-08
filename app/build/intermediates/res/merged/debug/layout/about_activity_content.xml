@@ -51,7 +51,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Contact Us"
+                    android:text="Contact Me"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 
@@ -61,23 +61,6 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="?colorPrimary"
-                    android:gravity="center_vertical"
-                    android:paddingBottom="3dp"
-                    android:paddingStart="16dp"
-                    android:paddingTop="3dp"
-                    android:text="Our Team"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:textColor="@android:color/white"/>
-
-                <LinearLayout
-                    android:id="@+id/aboutTeamContainer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"/>
 
                 <TextView
                     android:layout_width="match_parent"

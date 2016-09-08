@@ -45,14 +45,14 @@
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
     <string name="systemui_prefs">SystemUI prefs</string>
-    <string name="phone_prefs">Phone prefs</string>
-    <string name="lockscreen_prefs">Locksreen</string>
+    <string name="phone_prefs">Phone</string>
+    <string name="lockscreen_prefs">Lockscreen</string>
     <string name="notification_panel_prefs">Notification panel</string>
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>
     <string name="backup_and_restore"><![CDATA[Backup & Restore]]></string>
     <string name="changelog">Changelog</string>
-    <string name="about_us">About me and Credits</string>
+    <string name="about_us"><![CDATA[About me & Credits]]></string>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="run_script_confirm_dialog_title">Confirmation required</string>
     <string name="run_script_confirm_dialog_positive_button">Yes, run</string>
@@ -126,7 +126,7 @@
     <string name="status_bar_weather_font_black_italic">Black Italic</string>
     <string name="right">Right</string>
     <string name="left">Left</string>
-    <string name="display_and_buttons_prefs">Display and Buttons</string>
+    <string name="display_and_buttons">Display and Buttons</string>
     <string name="statusbar_prefs">Status Bar</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
