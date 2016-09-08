@@ -50,5 +50,9 @@
     {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable-nodpi/tamirda.png",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable-nodpi/tamirda.png"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable-nodpi/stackoverflow.png",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable-nodpi/stackoverflow.png"
     }
 ]

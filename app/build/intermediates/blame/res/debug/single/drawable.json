@@ -68,6 +68,10 @@
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/res/drawable/design_snackbar_background.xml"
     },
     {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_restart_systemui.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_restart_systemui.xml"
+    },
+    {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_clear_material.xml"
     },

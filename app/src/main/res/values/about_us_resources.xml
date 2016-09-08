@@ -35,8 +35,8 @@
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=4471434/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/galaxy-j5/development/</item>
+        <item>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3VCX9UAKSLE2U</item>
     </string-array>
 
 
@@ -47,9 +47,11 @@
         <item>@drawable/henkate</item>
         <item>@drawable/daxgirl</item>
         <item>@drawable/wuby986</item>
+        <item>@drawable/stackoverflow</item>
         <item>@drawable/tdunham</item>
         <item>@drawable/kamy</item>
         <item>@drawable/darklord</item>
+        <item>@drawable/android_icon</item>
         <item>@drawable/android_icon</item>
         <item>@drawable/majdinj</item>
         <item>@drawable/venkat_kamesh</item>
@@ -78,9 +80,11 @@
         <item>#Henkate -me, for developing this rom</item>
         <item>daxgirl - 6thGear RomControl</item>
         <item>Wuby986 - 6thGear RomControl</item>
+        <item>StackOverflow</item>
         <item>tdunham</item>
         <item>Kamy</item>
         <item>DaRk-L0rD</item>
+        <item>DaOldMan</item>
         <item>bamzzz and OmniROM</item>
         <item>majdinj</item>
         <item>venkat kamesh</item>
@@ -108,9 +112,11 @@
         <item>http://forum.xda-developers.com/member.php?u=4471434/</item>
         <item>http://forum.xda-developers.com/member.php?u=4714483/</item>
         <item>http://forum.xda-developers.com/member.php?u=5493353/</item>
+        <item>http://stackoverflow.com/</item>
         <item>http://forum.xda-developers.com/member.php?u=1042140</item>
         <item>http://forum.xda-developers.com/member.php?u=4819130</item>
         <item>http://forum.xda-developers.com/member.php?u=4872623</item>
+        <item>http://forum.xda-developers.com/member.php?u=3026895</item>
         <item>http://forum.xda-developers.com/member.php?u=4672359</item>
         <item>http://forum.xda-developers.com/member.php?u=369057</item>
         <item>http://forum.xda-developers.com/member.php?u=4433143</item>

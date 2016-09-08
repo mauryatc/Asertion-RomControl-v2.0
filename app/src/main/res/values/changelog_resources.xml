@@ -16,7 +16,7 @@
         <item>Removed signature verification - can install older app version over newer</item>
         <item>Disabled scrolling cache across OS (for smoother scrolling)?</item>
         <item>Disabled safe media volume warning popup</item>
-        <item>Can use torch when battery is low</item>
+        <item>Can use torch when battery is low, less than 5%</item>
         <item>Added Samsung Music Player</item>
         <item>Added Gesture Anywhere - you can launch any app/activity/contact/folder/Tasker shortcut/Greenify Hibernate with any gesture</item>
         <item>Added a invisible icon in status bar, behind the clock, which power off the screen when you touch and show Power Menu when you long touch</item>
@@ -31,22 +31,22 @@
         <item>##############################</item>
         <item>Added Asertion ROM Control to control following options:</item>
         <item>##############################</item>
-        <item>============</item>
-        <item>STATUS BAR:</item>
+        <item>===========</item>
+        <item>STATUS BAR</item>
         <item>===========</item>
         <item>Battery Bar: show/hide, animation, style, size, color</item>
         <item>##############################</item>
-        <item>==================</item>
+        <item>===================</item>
         <item>NOTIFICATION PANEL</item>
-        <item>==================</item>
+        <item>===================</item>
         <item>Memory Cleaner: show/hide, custom color</item>
         <item>StatusBar Expanded Header Color</item>
         <item>Notification Background Color</item>
         <item>Dropdown Clock: digital/analog</item>
         <item>7 Buttons backgrounds to choose from</item>
         <item>##############################</item>
-        <item>============</item>
-        <item>LOCKSCREEN:</item>
+        <item>===========</item>
+        <item>LOCKSCREEN</item>
         <item>===========</item>
         <item>10 Clock fonts styles</item>
         <item>Choose how many notifications shows on lockscreen: 2/3/4/5</item>
@@ -57,13 +57,13 @@
         <item>Custom Carrier Text: show/hide, custom color</item>
         <item>Device Info: show/hide, custom colors</item>
         <item>##############################</item>
-        <item>=======</item>
-        <item>PHONE:</item>
+        <item>======</item>
+        <item>PHONE</item>
         <item>======</item>
         <item>Increasing Ringtone: enable/disable</item>
         <item>##############################</item>
         <item>====================</item>
-        <item>DISPLAY AND BUTTONS:</item>
+        <item>DISPLAY AND BUTTONS</item>
         <item>====================</item>
         <item>Omni Screen Recorder options</item>
         <item>Home Button Wake: enable/disable</item>
