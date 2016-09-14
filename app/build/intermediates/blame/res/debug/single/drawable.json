@@ -28,16 +28,20 @@
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_misc.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_misc.xml"
+    },
+    {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/inset_dialog_bg.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/inset_dialog_bg.xml"
     },
     {
-        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_arrow.xml",
-        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_arrow.xml"
-    },
-    {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_reboot.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_reboot.xml"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/ic_arrow.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/drawable/ic_arrow.xml"
     },
     {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",

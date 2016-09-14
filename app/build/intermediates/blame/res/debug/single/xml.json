@@ -22,5 +22,9 @@
     {
         "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/phone_prefs.xml",
         "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/phone_prefs.xml"
+    },
+    {
+        "merged": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/xml/misc_prefs.xml",
+        "source": "/home/robert/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/xml/misc_prefs.xml"
     }
 ]

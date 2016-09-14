@@ -303,6 +303,7 @@
         <item>@drawable/ic_lockscreen</item>
         <item>@drawable/ic_phone</item>
         <item>@drawable/ic_display_and_buttons</item>
+        <item>@drawable/ic_misc</item>
     </array>
     <string-array name="nav_menu_prefs_titles">
         <item>@string/statusbar_prefs</item>
@@ -310,6 +311,7 @@
         <item>@string/lockscreen_prefs</item>
         <item>@string/phone_prefs</item>
         <item>@string/display_and_buttons</item>
+        <item>@string/misc_prefs</item>
     </string-array>
     <string-array name="nav_menu_xml_file_names" translatable="false">
         <item>statusbar_prefs</item>
@@ -317,6 +319,7 @@
         <item>lockscreen_prefs</item>
         <item>phone_prefs</item>
         <item>display_and_buttons</item>
+        <item>misc_prefs</item>
     </string-array>
     <string-array name="scr_bitrate_entries">
         <item>500Kbps</item>
@@ -1099,6 +1102,7 @@
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="left">Left</string>
     <string name="lockscreen_prefs">Lockscreen</string>
+    <string name="misc_prefs">Misc</string>
     <string name="more_options">More options</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

@@ -29,6 +29,7 @@
         <item>@drawable/ic_lockscreen</item>
         <item>@drawable/ic_phone</item>
         <item>@drawable/ic_display_and_buttons</item>
+        <item>@drawable/ic_misc</item>
     </array>
 
 
@@ -41,6 +42,7 @@
         <item>@string/lockscreen_prefs</item>
         <item>@string/phone_prefs</item>
         <item>@string/display_and_buttons</item>
+        <item>@string/misc_prefs</item>
     </string-array>
 
 
@@ -54,5 +56,6 @@
         <item>lockscreen_prefs</item>
         <item>phone_prefs</item>
         <item>display_and_buttons</item>
+        <item>misc_prefs</item>
     </string-array>
 </resources>

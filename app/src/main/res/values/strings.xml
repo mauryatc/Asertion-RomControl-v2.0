@@ -128,6 +128,7 @@
     <string name="left">Left</string>
     <string name="display_and_buttons">Display and Buttons</string>
     <string name="statusbar_prefs">Status Bar</string>
+    <string name="misc_prefs">Misc</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>
