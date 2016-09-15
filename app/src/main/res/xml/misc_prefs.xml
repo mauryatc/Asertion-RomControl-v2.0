@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Misc">
+        <Preference android:enabled="true" android:title="Internet Protection">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.psycho.nvidia.CydiaCore" />
+        </Preference>
+
+        <Preference android:enabled="true" android:title="Manage which apps start at boot">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.autostarts.LewaManageAutostarts" />
+        </Preference>
+
+        <Preference android:enabled="true" android:title="System App Remover">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.rz.SystemappRemover" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

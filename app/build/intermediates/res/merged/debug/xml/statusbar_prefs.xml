@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Clock &amp; date">
+        <Preference android:enabled="true" android:title="Clock and Date" android:summary="Customize the clock and date">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.gurpreet.statusbarclock.StatusBarClockStyle" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" ">
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Colors">
+    <Preference android:enabled="true" android:title="Potato Gradient">
+        <intent android:targetPackage="com.potato.gradientapp" android:action="android.intent.action.MAIN" android:targetClass="com.potato.gradientapp.MainActivity" />
+    </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" ">
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Battery Bar">
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="Tap here to show/hide" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:defaultValue="false" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_style_entries" android:title="Battery bar style" android:key="battery_bar_style" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Battery Bar Color" android:key="battery_bar_color" android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

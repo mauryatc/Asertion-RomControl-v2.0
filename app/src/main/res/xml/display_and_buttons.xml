@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Display">
+        <Preference android:enabled="true" android:title="Gesture Anywhere">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.chameleonos.labs.gestureanywhere.GestureAnywhereSettings" />
+        </Preference>
+    <PreferenceScreen android:title="Screen Recorder" android:summary="Add from Widgets > Screenrecord">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="scr_pointer"
+            android:summaryOff="@string/scr_disable"
+            android:summaryOn="@string/scr_enable"
+            android:title="@string/scr_pointer_title" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="scr_thumbs_preview"
+            android:summaryOff="@string/scr_disable"
+            android:summaryOn="@string/scr_enable"
+            android:title="@string/scr_thumbs_preview_title" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="4"
+            android:key="scr_bitrate"
+            android:entries="@array/scr_bitrate_entries"
+            android:entryValues="@array/scr_bitrate_values"
+            android:title="@string/scr_bitrate_title" />
+        <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+            android:title="@string/scr_bitrate_custom_title"
+            android:summary="@string/scr_bitrate_custom_summary"
+            android:key="scr_bitrate_custom"
+            android:dialogTitle="@string/scr_bitrate_custom_dialog"
+            android:inputType="number"
+            android:defaultValue="4000" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="2"
+            android:key="scr_timelimit"
+            android:entries="@array/scr_timelimit_entries"
+            android:entryValues="@array/scr_timelimit_values"
+            android:title="@string/scr_timelimit_title" />
+        <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+            android:title="@string/scr_timelimit_custom_title"
+            android:summary="@string/scr_timelimit_custom_summary"
+            android:key="scr_timelimit_custom"
+            android:dialogTitle="@string/scr_timelimit_custom_dialog"
+            android:inputType="number"
+            android:defaultValue="180" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="0"
+            android:key="scr_storage_path"
+            android:entries="@array/scr_storage_path_entries"
+            android:entryValues="@array/scr_storage_path_values"
+            android:title="@string/scr_storage_path_title" />
+    </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" ">
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Buttons">
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference android:title="Home Button Wake" android:key="wake_home" android:defaultValue="false" android:summaryOn="Home Button Enabled" android:summaryOff="Home Button Disabled" />
+    </PreferenceCategory>
+</PreferenceScreen>
