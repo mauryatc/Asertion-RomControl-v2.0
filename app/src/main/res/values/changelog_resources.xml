@@ -14,7 +14,7 @@
         <item>360 degree rotation</item>
         <item>Removed Mobile Data toggle off Warning Dialogue</item>
         <item>Removed signature verification - can install older app version over newer</item>
-        <item>Disabled scrolling cache across OS (for smoother scrolling)?</item>
+        <item>Disabled scrolling cache across OS (for smoother scrolling)</item>
         <item>Disabled safe media volume warning popup</item>
         <item>Can use torch when battery is low, less than 5%</item>
         <item>Added Samsung Music Player</item>
@@ -26,7 +26,7 @@
         <item>Added System App Remover</item>
         <item>Added Auto Start Management - select which apps start at boot</item>
         <item>Added Clock and Date options: show/hide, custom color, enable/disable seconds, left/right, font style, show/shie AM/PM, show/hide date, date style, date format</item>
-        <item>Enabled developer options by defaultr</item>
+        <item>Enabled developer options by default</item>
         <item>Removed Knox info in Settings>About screen</item>
         <item>##############################</item>
         <item>Added Asertion ROM Control to control following options:</item>
@@ -39,7 +39,7 @@
         <item>===================</item>
         <item>NOTIFICATION PANEL</item>
         <item>===================</item>
-        <item>Memory Cleaner: show/hide, custom color</item>
+        <item>[DELETED FOR NOW] Memory Cleaner: show/hide, custom color</item>
         <item>StatusBar Expanded Header Color</item>
         <item>Notification Background Color</item>
         <item>Dropdown Clock: digital/analog</item>
