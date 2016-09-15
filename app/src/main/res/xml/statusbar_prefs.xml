@@ -21,7 +21,7 @@
 
 
     <PreferenceCategory android:title="Battery Bar">
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="Tap here to show/hide" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_entries" android:title="Battery Bar" android:key="battery_bar" android:summary="Tap here to show/hide" android:defaultValue="0" android:entryValues="@array/battery_bar_values" />
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Battery bar animation" android:key="battery_bar_animate" android:defaultValue="false" android:summaryOn="Charging animation enabled" android:summaryOff="Animation disabled" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_style_entries" android:title="Battery bar style" android:key="battery_bar_style" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
     <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/battery_bar_thickness_entries" android:title="Thickness of battery bar" android:key="battery_bar_thickness" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
